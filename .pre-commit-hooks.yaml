@@ -1,7 +1,7 @@
 - id: ansible-lint-roles
   name: Ansible lint for roles
   description: Checks ansible roles
-  entry: ansible-lint-roles.sh
+  entry: ansible-lint-roles.sh --force-color
   files: /tasks/ # reflects tasks
   types: [text, yaml] # reflects yaml changes 
   language: script
