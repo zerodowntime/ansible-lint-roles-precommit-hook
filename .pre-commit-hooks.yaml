@@ -1,0 +1,8 @@
+- id: ansible-lint-roles
+  name: Ansible lint for roles
+  description: Checks ansible roles
+  entry: ansible-lint-roles.sh
+  files: /tasks/ # reflects tasks
+  types: [text, yaml] # reflects yaml changes 
+  language: script
+  require_serial: true # avoids checking the same role a few times
