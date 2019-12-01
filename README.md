@@ -1,0 +1,1 @@
+# ansible-lint-roles-precommit-hook
